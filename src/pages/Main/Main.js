@@ -14,6 +14,8 @@ export default function Main() {
     setTheme(click ? 'dark' : 'light');
   };
 
+
+
   return (
     <div className="main__container">
       <div className={`main__dark ${click && 'active'}`} />
