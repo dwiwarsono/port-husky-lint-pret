@@ -1,0 +1,27 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  z-index: 3;
+}
+
+.icons > div:not(:last-child){
+  margin: 0.5rem 0;
+} 
+
+.line {
+  width: 2px;
+  height: 8rem;
+}
+
+.line__dark {
+  background-color: #000000
+}
+
+.line__light {
+  background-color: #FCF6F4
+}

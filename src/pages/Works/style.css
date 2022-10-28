@@ -1,0 +1,17 @@
+.work__container {
+    background-color: #000000;
+    height: 400vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.work__card {
+    position: fixed;
+    top: 12rem;
+    left: calc(10rem + 15vw);
+    height: 40vh;
+    display: flex;
+
+    color: white;
+}

@@ -1,0 +1,124 @@
+.main__container {
+    /* background: red; */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.main__dark {
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    bottom: 0;
+    right: 50%;
+    width: 0%;
+    height: 0%;
+    z-index: 1;
+    -webkit-transition: height 0.5s ease, width 1s ease 0.5s;
+    transition: height 0.5s ease, width 1s ease 0.5s;
+}
+
+.active {
+    width: 50%;
+    height: 100%
+}
+
+.container {
+    padding: 2rem;
+}
+
+.main__btn {
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-color: #FCF6F4;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    color: #cc3a3b;
+    text-transform: uppercase;
+    border-radius: 50%;
+    border: 2px solid #cc3a3b;
+    position: fixed;
+    left: 2rem;
+    top: 2rem;
+    z-index:3;
+}
+
+.contact {
+    color: red;
+    position: absolute;
+    top: 2rem;
+    right: calc(1rem + 2vw);
+    text-decoration: none;
+    z-index: 1;
+}
+
+.blog {
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: calc(1rem + 2vw);
+    transform: rotate(90deg) translate(-50%, -50%);
+    text-decoration: none;
+    z-index: 1;
+}
+
+.work {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: calc(1rem + 2vw);
+    transform: translate(-50%, -50%) rotate(-90deg);
+    text-decoration: none;
+    z-index: 1;
+}
+
+.wrapper__bottom {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    color: red;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.skills {
+    color: red;
+        text-decoration: none;
+    z-index: 1;
+}
